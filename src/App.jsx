@@ -18,8 +18,6 @@ function App() {
       <Footer />
 
       {/* </div> */}
-
-      {/* <iframe class="w-full aspect-video" src="https://youtu.be/1-sNJs-MFYo?si=y0OW8411-9cMhaF8"></iframe> */}
       
     </>
   );

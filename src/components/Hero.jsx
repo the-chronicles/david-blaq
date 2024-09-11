@@ -10,7 +10,7 @@ function Hero() {
             <img
               src="/Lightning 1.svg"
               alt=""
-              className="h-24 w-24 animate-spin"
+              className="h-24 w-24 animate-pulse"
             />
           </div>
 

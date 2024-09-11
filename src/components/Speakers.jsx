@@ -19,24 +19,23 @@ const speakers = [
 
 function Speakers() {
   const settings = {
-    dots: false, // Adds navigation dots
     infinite: false,
     speed: 500,
-    slidesToShow: 1, // Number of visible slides
+    slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 3,
-    //     },
-    //   },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
       {
@@ -49,12 +48,12 @@ function Speakers() {
   };
 
   return (
-    <section id="speakers" className="h-full">
-    {/* <div className="carousel-container"> */}
-      <div className="overflow-hidden h-full">
+    <section id="speakers" className="h-full overflow-hidden">
+      {/* <div className="carousel-container"> */}
+      <div className="h-full overflow-hidden">
         <Slider {...settings}>
           {speakers.map((speaker, index) => (
-            <div key={index} className="speaker-card">
+            <div key={index} className="h-full">
               <img
                 src={speaker.img}
                 alt={speaker.name}
