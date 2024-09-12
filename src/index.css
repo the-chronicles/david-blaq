@@ -5,15 +5,19 @@
 @import '~slick-carousel/slick/slick.css';
 @import '~slick-carousel/slick/slick-theme.css';
 
-/* .carousel-container {
-    max-width: 1200px;
-    margin: 0;
-  } */
-  
-  /* .speaker-card {
-    text-align: center;
-    padding: 10px;
-  } */
+@font-face {
+  font-family: 'Neue';
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  src: url('/fonts/Neue Montreal Regular 400.otf');
+}
+@font-face {
+  font-family: 'Thunder';
+  font-weight: 700; /* Regular */
+  font-style: normal;
+  src: url('/fonts/Thunder-BoldLC 700.otf');
+}
+
    
   
   .speaker-img {
@@ -24,23 +28,4 @@
     overflow: hidden;
   }
   
-  
-  /* .speaker-info {
-    margin-top: 10px;
-  }
-  
-  .speaker-info h3 {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .speaker-info p {
-    font-size: 14px;
-    color: gray;
-  }
-  
-  .speaker-info span {
-    font-size: 12px;
-    color: #b8b8b8;
-  } */
   

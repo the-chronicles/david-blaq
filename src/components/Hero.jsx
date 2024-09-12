@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Hero() {
   return (
     <>
-      <section className="relative flex h-full flex-col items-center justify-center bg-gradient-to-b from-[#F2FAF8] to-white text-center">
+      <section className="relative font-[Neue]  flex h-full flex-col items-center justify-center bg-gradient-to-b from-[#F2FAF8] to-white text-center">
         <div>
           <div className="absolute -top-2 right-1 md:right-10 md:top-4">
             <motion.img
@@ -36,7 +36,7 @@ function Hero() {
             alt="cwd logo"
             className="h-32 w-32 md:h-auto md:w-auto"
           />
-          <p className="-mt-1 border border-[#fb9927]/70 p-2 text-xs font-bold text-[#1b1b1b] md:-mt-20 md:p-5 md:text-3xl">
+          <p className="-mt-1  border border-[#fb9927]/70 p-2 text-xs font-extrabold text-[#1b1b1b] md:-mt-20 md:p-5 md:text-3xl">
             Knowledge Beyond YouTube
           </p>
         </div>

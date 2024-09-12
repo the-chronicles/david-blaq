@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fonts: {
+        custom: ["Neue", "Thunder", "sans-serif"],
+      },
+      fontWeight: {
+        regular: 400,
+        bold: 700,
+      },
+    },
   },
   plugins: [],
 }
