@@ -21,18 +21,18 @@ function Blaq() {
             className="m-auto rounded-lg"
           />
         </div>
-        <div>
+        <div >
           <h3 className="mt-4 text-xl font-bold text-white md:mt-0">
             Our Mandate
           </h3>
-          <p className="mt-2 text-lg text-white">
+          <p className="mt-2 text-lg text-justify text-white">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
             impedit ex dolorem optio facilis quo quis excepturi eum molestias,
             quidem obcaecati aliquam iusto necessitatibus iste expedita numquam
             quae itaque nihil?
           </p>
           <h3 className="mt-6 text-xl font-bold text-white">Our Mandate</h3>
-          <p className="mt-2 text-lg text-white">
+          <p className="mt-2 text-lg text-justify text-white">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
             impedit ex dolorem optio facilis quo quis excepturi eum molestias,
             quidem obcaecati aliquam iusto necessitatibus iste expedita numquam
