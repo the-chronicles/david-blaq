@@ -48,7 +48,7 @@ function Speakers() {
   };
 
   return (
-    <section id="speakers" className="h-full overflow-hidden">
+    <section id="speakers" className="h-full bg-black overflow-hidden">
       {/* <div className="carousel-container"> */}
       <div className="h-full overflow-hidden">
         <Slider {...settings}>
