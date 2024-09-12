@@ -5,10 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 const speakers = [
   {
-    img: "/spk1.png", // Replace with actual image path
+    img: "/spk2.png", // Replace with actual image path
   },
   {
-    img: "/spk2.png", // Replace with actual image path
+    img: "/spk1.png", // Replace with actual image path
   },
   //     name: "David Blaq",
   //     role: "Film Maker",

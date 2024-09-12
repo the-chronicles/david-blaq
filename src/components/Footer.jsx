@@ -15,7 +15,7 @@ function Footer() {
 
             <div className="flex space-x-4">
               <div className="border-[#2f6e00] border-2 px-4 py-2 text-white">
-                10TH JUNE 2023
+                22ND -24TH SEPTEMBER 2024
               </div>
               <div className=" border-[#0E2930] border-2 px-4 py-2 text-white">
                 9AM PROMPT

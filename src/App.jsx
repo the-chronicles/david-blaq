@@ -8,7 +8,7 @@ import Speakers from "./components/Speakers";
 function App() {
   return (
     <>
-      {/* <div className="h-screen relative flex flex-col justify-center items-center"> */}
+      {/* <div className="h-screen relative"> */}
       {/* <div className="flex min-h-screen flex-col justify-between items-center"> */}
       <Navbar />
       <Hero />
