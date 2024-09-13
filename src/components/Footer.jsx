@@ -6,7 +6,7 @@ function Footer() {
       <section className="bg-black py-12 text-white">
         <div className="container mx-auto flex flex-col items-center px-6 md:flex-row md:justify-between">
           <div className="flex w-full flex-col space-y-4 md:w-1/2">
-            <h1 className="font-[Thunder] text-7xl font-black">
+            <h1 className="font-[Thunder] text-6xl font-black">
               SAVE YOUR SPOT
             </h1>
             <p className="text-wrap text-xl">
@@ -27,12 +27,13 @@ function Footer() {
             </div>
           </div>
 
-          <div className="mt-8 flex w-full flex-col items-center justify-center md:mt-0 md:w-1/2">
-            <div className="h-64 w-96 overflow-hidden">
+          <div className="mt-8 flex w-full flex-col items-center justify-center overflow-hidden md:mt-0 md:w-1/2">
+            <div className="h-64 w-96">
               <iframe
                 className="h-full w-full rounded-3xl border-2"
-                src="https://www.youtube.com/embed/JyU0n748MdM?si=AqD4EVKn7Zm3XRAwD"
+                src="https://www.youtube.com/embed/57Fe9e5iLgg?si=kH1Izdn7MHSBIAtU"
                 title="Entry Video"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
