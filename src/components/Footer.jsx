@@ -6,7 +6,7 @@ function Footer() {
       <section className="bg-black py-12 text-white">
         <div className="container mx-auto flex flex-col items-center px-6 md:flex-row md:justify-between">
           <div className="flex w-full flex-col space-y-4 md:w-1/2">
-            <h1 className="font-[Thunder] text-6xl font-black">
+            <h1 className="font-[Thunder] text-3xl md:text-6xl font-black">
               SAVE YOUR SPOT
             </h1>
             <p className="text-wrap text-xl">
