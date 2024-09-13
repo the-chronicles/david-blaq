@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Blaq() {
   return (
     <section id="blaq" className="flex font-[Neue] h-full justify-center bg-black">
-      <div className="m-8 gap-1 md:gap-4 grid grid-cols-1 items-center py-20 md:grid-cols-2">
+      <div className="m-8 gap-1 md:gap-4 grid grid-cols-1 items-center md:py-20 md:grid-cols-2">
         <div className="relative">
           <div className="absolute -right-10 -top-8 sm:right-10 md:-right-10 lg:right-10">
             <motion.img

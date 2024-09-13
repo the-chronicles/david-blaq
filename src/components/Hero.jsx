@@ -16,7 +16,7 @@ function Hero() {
             />
           </div>
 
-          <div className="absolute -left-5 bottom-5 md:bottom-10 md:left-10">
+          <div className="absolute -left-4 -bottom-32  md:bottom-10 md:-left-8">
             <motion.img
               src="/Asterisk 2 (4).svg"
               initial={{ rotate: 0 }}
@@ -34,9 +34,9 @@ function Hero() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
             alt="cwd logo"
-            className="h-32 w-32 md:h-auto md:w-auto"
+            className="h-2/4 w-2/4 md:h-auto md:w-auto"
           />
-          <p className="-mt-1  border border-[#fb9927]/70 p-2 text-xs font-extrabold text-[#1b1b1b] md:-mt-20 md:p-5 md:text-3xl">
+          <p className=" -mt-7 border border-[#fb9927]/70 p-3 text-lg font-extrabold text-[#1b1b1b] md:-mt-20 md:p-5 md:text-3xl">
             Knowledge Beyond YouTube
           </p>
         </div>
