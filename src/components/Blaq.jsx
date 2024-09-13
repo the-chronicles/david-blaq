@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 
 function Blaq() {
   return (
-    <section id="blaq" className="flex font-[Neue] h-full justify-center bg-black">
+    <section id="blaq" className="flex overflow-hidden font-[Neue] h-full justify-center bg-black">
       <div className="m-8 gap-1 md:gap-4 grid grid-cols-1 items-center md:py-20 md:grid-cols-2">
         <div className="relative">
-          <div className="absolute -right-10 -top-8 sm:right-10 md:-right-10 lg:right-10">
+          <div className="absolute -right-9 -top-8 sm:right-10 md:-right-10 lg:right-10">
             <motion.img
               src="/Asterisk 2 (2).svg"
               initial={{ rotate: 0 }}
               animate={{ rotate: 360 }}
               transition={{ duration: 2, repeat: Infinity }}
-              className="h-24 w-24"
+              className="h-20 w-20 md:h-24 md:w-24"
             />
           </div>
           <img
