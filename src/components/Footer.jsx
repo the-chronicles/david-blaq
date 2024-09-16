@@ -31,9 +31,9 @@ function Footer() {
             <div className="h-64 w-96">
               <iframe
                 className="h-full w-full rounded-3xl border-2"
-                src="https://www.youtube.com/embed/57Fe9e5iLgg?si=kH1Izdn7MHSBIAtU"
+                src="https://www.youtube.com/embed/oNkxv45KWVs?si=VL65wXDZvEVbYnCc"
                 title="Entry Video"
-                frameborder="0"
+                
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
