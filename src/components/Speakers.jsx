@@ -10,6 +10,9 @@ const speakers = [
   {
     img: "/spk1.png", // Replace with actual image path
   },
+  {
+    img: "/spk 3.png", // Replace with actual image path
+  },
   //     name: "David Blaq",
   //     role: "Film Maker",
   //     specialization: "Live Production",
