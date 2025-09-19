@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 function CountdownTimer() {
-  const targetDate = new Date("2024-09-22T00:00:00").getTime();
+  const targetDate = new Date("2025-10-11T00:00:00").getTime();
 
   const calculateTimeLeft = () => {
     const now = new Date().getTime();

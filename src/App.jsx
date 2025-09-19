@@ -1,24 +1,16 @@
-import Blaq from "./components/Blaq";
-import CountdownTimer from "./components/CountdownTimer";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Speakers from "./components/Speakers";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Camp from "./pages/Camp";
+import Index from "./pages/Index";
 
 function App() {
   return (
     <>
-      {/* <div className="h-screen relative"> */}
-      {/* <div className="flex min-h-screen flex-col justify-between items-center"> */}
-      <Navbar />
-      <Hero />
-      <CountdownTimer />
-      <Blaq />
-      <Speakers />
-      <Footer />
-
-      {/* </div> */}
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/camp" element={<Camp />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

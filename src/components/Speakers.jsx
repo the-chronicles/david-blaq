@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -51,7 +50,7 @@ function Speakers() {
   };
 
   return (
-    <section id="speakers" className="h-full bg-black overflow-hidden">
+    <section id="speakers" className="h-full overflow-hidden bg-black">
       {/* <div className="carousel-container"> */}
       <div className="h-full overflow-hidden">
         <Slider {...settings}>
