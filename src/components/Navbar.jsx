@@ -11,7 +11,6 @@ function Navbar() {
         </div>
         <div className="flex gap-3 text-xs md:gap-5 md:text-xl">
           <Link to="/">Home</Link>
-          <a href="#blaq ">DavidBlaq</a>
           <a href="#speakers">Speakers</a>
         </div>
         <div>
